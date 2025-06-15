@@ -35,5 +35,5 @@ def extract_predict_to_txt(input_file, output_file):
 
 if __name__ == "__main__":
     # 执行提取操作
-    extract_predict_to_txt("generated_predictions_l3.jsonl", "test1_output_l3.txt")
+    extract_predict_to_txt("generated_predictions.jsonl", "test1_output.txt")
 
