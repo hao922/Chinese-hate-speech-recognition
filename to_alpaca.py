@@ -41,7 +41,7 @@ def train_to_alpaca():
         alpaca_format.append(alpaca_entry)
 
     # 保存为新文件
-    output_path = "train_alpaca_v3.json"
+    output_path = "train_alpaca.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(alpaca_format, f, ensure_ascii=False, indent=2)
 
@@ -52,7 +52,7 @@ def test_to_alpaca():
     # 原始文件路径
     input_file = "test1.json"
     # 转换后文件路径
-    output_file = "test1_alpaca_v3.json"
+    output_file = "test1_alpaca.json"
 
     # 统一的 prompt 指令
     # instruction = (
