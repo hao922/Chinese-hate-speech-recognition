@@ -1,0 +1,10 @@
+{
+  "my_alpaca": {
+    "file_name": "/data/xuqi/hog/LLaMA-Factory/data/train_alpaca.json",
+    "dataset_format": "alpaca"
+  },
+  "test_alpaca": {
+    "file_name": "/data/xuqi/hog/LLaMA-Factory/data/test1_alpaca.json",
+    "dataset_format": "alpaca"
+  }
+}
