@@ -1,1 +1,1 @@
-生成alpaca数据后，用该dataset_info替换或添加到llama-factory中，更改相应命令后即可
+生成alpaca数据后，用该dataset_info中的内容替换或添加到llama-factory中，更改相应命令后即可
